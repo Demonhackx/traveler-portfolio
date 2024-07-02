@@ -1,0 +1,22 @@
+{
+  "title": "Destinations",
+  "description": "Explore some of my favorite travel destinations.",
+  "titleVideoButton": "Watch video",
+  "destinations": [
+    {
+      "name": "Kyoto, Japan",
+      "description": "Discover the ancient temples, traditional tea houses, and serene gardens of Kyoto, a city rich in history and culture.",
+      "videoUrl": "https://www.youtube.com/watch?v=nGJMwixogyk&t=1s"
+    },
+    {
+      "name": "Santorini, Greece",
+      "description": "Experience the breathtaking views of white-washed buildings, stunning sunsets, and crystal-clear waters in the beautiful island of Santorini.",
+      "videoUrl": "https://www.youtube.com/watch?v=4zAEDLwl9HI"
+    },
+    {
+      "name": "Machu Picchu, Peru",
+      "description": "Embark on a journey to the ancient Incan city of Machu Picchu, nestled high in the Andes mountains, offering spectacular views and rich archaeological wonders.",
+      "videoUrl": "https://www.youtube.com/watch?v=oZ90M55mDac"
+    }
+  ]
+}

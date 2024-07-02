@@ -1,0 +1,15 @@
+<div class="blog-container">
+  <h1 class="blog-title">{{ title }}</h1>
+  <p class="blog-description">{{ description }}</p>
+  <div *ngIf="posts.length > 0">
+    <div *ngFor="let post of posts" class="blog-post">
+      <h2 class="blog-post-title">{{ post.title }}</h2>
+      <p class="blog-post-date">{{ post.date }}</p>
+      <p class="blog-post-summary">{{ post.summary }}</p>
+      <button (click)="goToPost(post.id)" class="btn btn-block">{{ buttonTitle }}</button>
+    </div>
+  </div>
+  <div *ngIf="posts.length === 0">
+    <p>Non ci sono post disponibili.</p>
+  </div>
+</div>

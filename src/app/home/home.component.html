@@ -1,0 +1,9 @@
+<div class="container">
+  <h2 class="mt-5 mb-4">{{ title }}</h2>
+  <input type="text" [(ngModel)]="searchText" placeholder="Search destinations..." class="form-control mb-4">
+  <div class="row">
+    <div class="col-md-4 mb-4" *ngFor="let destination of filteredDestinations">
+      <app-destination-card [destination]="destination"></app-destination-card>
+    </div>
+  </div>
+</div>

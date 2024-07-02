@@ -1,0 +1,8 @@
+<div class="card">
+  <img [src]="destination.imageUrl" class="card-img-top" alt="Destination">
+  <div class="card-body">
+    <h5 class="card-title">{{ destination.name }}</h5>
+    <p class="card-text">{{ destination.description }}</p>
+    <button mat-button class="btn btn-primary" (click)="openDialog(destination)">{{ titleButton }}</button>
+  </div>
+</div>

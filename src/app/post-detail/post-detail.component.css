@@ -1,0 +1,33 @@
+.post-container {
+  max-width: 50rem;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 1rem;
+  background-color: #f9f9f9;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.1);
+}
+
+.post-title {
+  font-size: 2em;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.post-date {
+  font-size: 1em;
+  color: #777;
+  margin-bottom: 2rem;
+}
+
+.post-summary {
+  font-size: 1.2em;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.post-content {
+  font-size: 1em;
+  line-height: 1.6;
+  color: #444;
+}

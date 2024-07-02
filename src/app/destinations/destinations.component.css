@@ -1,0 +1,41 @@
+.destination-container {
+  width: 80%;
+  margin: auto;
+  padding: 2rem;
+  font-family: 'Arial', sans-serif;
+}
+
+.destination-title {
+  font-family: 'Georgia', serif;
+  color: #333;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+  transition: color 0.3s ease;
+}
+
+.destination-description {
+  font-size: 1.125rem;
+  color: #7f8c8d;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.destination-item {
+  margin-bottom: 1.25rem;
+  padding: 0.9375rem;
+  border: 1px solid #ecf0f1;
+  border-radius: 0.5rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.destination-item:hover {
+  background-color: #e7e7e7;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.destination-name {
+  font-size: 1.5rem;
+  color: #34495e;
+  margin-bottom: 0.3125rem;
+}

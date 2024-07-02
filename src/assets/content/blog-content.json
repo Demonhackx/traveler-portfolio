@@ -1,0 +1,24 @@
+{
+  "title": "Blog",
+  "description": "Read about my latest travel experiences and tips.",
+  "posts": [
+    {
+      "id": 1,
+      "title": "Exploring the Streets of Tokyo",
+      "date": "2023-07-01",
+      "summary": "Join me as I navigate the bustling streets of Tokyo, discover hidden gems, and indulge in delicious street food."
+    },
+    {
+      "id": 2,
+      "title": "Hiking the Alps",
+      "date": "2023-06-15",
+      "summary": "A breathtaking journey through the Swiss Alps. Tips for preparation and must-see spots along the trails."
+    },
+    {
+      "id": 3,
+      "title": "Beach Hopping in Thailand",
+      "date": "2023-05-20",
+      "summary": "From the serene beaches of Phuket to the lively shores of Pattaya, here's my guide to the best beaches in Thailand."
+    }
+  ]
+}

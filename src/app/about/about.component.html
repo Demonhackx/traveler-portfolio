@@ -1,0 +1,7 @@
+<div class="about-container">
+  <h1 class="about-title">{{ title }}</h1>
+  <div *ngFor="let section of sections" class="about-section">
+    <h2 class="about-section-header">{{ section.header }}</h2>
+    <p class="about-section-content">{{ section.content }}</p>
+  </div>
+</div>

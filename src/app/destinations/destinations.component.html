@@ -1,0 +1,10 @@
+<div class="destination-container">
+  <h1 class="destination-title">{{ title }}</h1>
+  <p class="destination-description">{{ description }}</p>
+  
+  <div *ngFor="let destination of destinations" class="destination-item">
+    <h2 class="destination-name">{{ destination.name }}</h2>
+    <p class="destination-description">{{ destination.description }}</p>
+    <button *ngIf="destination.videoUrl" (click)="openVideo(destination.videoUrl, destination)" class="btn btn-primary">{{ titleVideoButton }}</button>    
+  </div>
+</div>
